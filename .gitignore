@@ -1,7 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
 
+.idea/
 .cache/
 coverage/
-dist/*
-!dist/index.html
+dist/
+#!dist/index.html
 node_modules/
 *.log

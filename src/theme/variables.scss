@@ -41,13 +41,3 @@ $color-disabled: #e5e5e5;
 //    flex-basis: (100% / 12 * $count);
 //  }
 //}
-
-@mixin firefox-only {
-  @at-root {
-    @-moz-document url-prefix() {
-      & {
-        @content;
-      }
-    }
-  }
-}
