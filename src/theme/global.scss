@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 8px;
+
+  @include media-breakpoint-up($xxs) {
+    font-size: 10px;
+  }
+
+  @include media-breakpoint-up($xs) {
+    font-size: 12px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #777;
+  font-family: LatoBlack, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  padding: 1rem;
+  font-size: 1.67rem;
+}
+
+a {
+  color: red !important;
+  text-decoration: none;
+}
