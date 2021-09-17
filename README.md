@@ -1,6 +1,6 @@
-# empty-project
+# Starter - kit
 
-Empty project.
+
 
 ## Building and running on localhost
 
